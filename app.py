@@ -8,9 +8,6 @@ app = Flask(__name__)
 db_url = os.environ.get('DATABASE_URL')
 app_port = os.environ.get('PORT')
 
-if db_url is None:
-    raise ValueError("DATABASE_URL environment variable not set")
-  
 # Database connection
 conn = psycopg2.connect(db_url)
 

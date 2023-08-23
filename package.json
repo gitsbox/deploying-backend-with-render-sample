@@ -1,0 +1,11 @@
+{
+  "name": "deploying-backend-with-render-sample",
+  "version": "1.0.0",
+  "description": "Deploy a back end application using Render",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
